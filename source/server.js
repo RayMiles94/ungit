@@ -19,7 +19,7 @@ const UngitPlugin = require('./ungit-plugin');
 const serveStatic = require('serve-static');
 const bodyParser = require('body-parser');
 const Bluebird = require('bluebird');
-
+/* start chnage */
 process.on('uncaughtException', (err) => {
   winston.error(err.stack ? err.stack.toString() : err.toString());
   async.parallel([
